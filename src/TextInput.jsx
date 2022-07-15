@@ -26,7 +26,7 @@ function TextInput() {
                 ? event.target.value
                 : "<BOS>",
               model: model,
-              max_length: "10",
+              max_length: "15",
             },
             {
               headers: {
